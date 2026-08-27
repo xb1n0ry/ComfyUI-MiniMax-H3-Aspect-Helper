@@ -1,5 +1,7 @@
 # ComfyUI MiniMax H3 Aspect Helper
 
+![MiniMax H3 Aspect Helper example workflow](assets/minimax-h3-aspect-helper-workflow.png)
+
 ## Overview
 
 MiniMax H3 Aspect Helper is a ComfyUI custom node that takes an input image, reads its aspect ratio, and determines a MiniMax H3-friendly target canvas from a selected short edge. It resizes the image while exposing both resized and untouched versions—with both sets of dimensions—for use in separate workflow branches.
